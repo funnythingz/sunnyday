@@ -14,7 +14,7 @@ func TestSunnydayTrunate(t *testing.T) {
 	}
 }
 
-func TestSunnydayTrunateOption(t *testing.T) {
+func TestSunnydayTrunateCustomOmission(t *testing.T) {
 	s := "hello, world!"
 	st := Truncate(s, 5, "...more")
 	o := "hello...more"

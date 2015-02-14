@@ -4,13 +4,13 @@ Sunnyday is a Truncate implemented in Go.
 
 ## Installation
 
-```
+```sh
 % go get github.com/funnythingz/sunnyday
 ```
 
 ## Usage
 
-```
+```go
 package main
 
 import(
@@ -23,8 +23,20 @@ func main() {
 }
 ```
 
-```
+```sh
 うんこっこ...
+```
+
+### options
+
+custom omission
+
+```go
+fmt.Println(sunnyday.Truncate("うんこっこたのしいお！", 5, "...more"))
+```
+
+```sh
+うんこっこ...more
 ```
 
 &copy; funnythingz
