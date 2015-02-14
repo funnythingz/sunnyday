@@ -1,5 +1,7 @@
 # Sunnyday
 
+[![Build Status](https://travis-ci.org/funnythingz/sunnyday.svg?branch=master)](https://travis-ci.org/funnythingz/sunnyday)
+
 Sunnyday is a Truncate implemented in Go.
 
 ## Installation
