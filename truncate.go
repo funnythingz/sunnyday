@@ -1,5 +1,9 @@
 package sunnyday
 
+import (
+	"unicode/utf8"
+)
+
 func Truncate(s string, c int, o ...string) string {
 	r := []rune(s)
 	var p string = "..."
@@ -8,5 +12,8 @@ func Truncate(s string, c int, o ...string) string {
 		p = _o
 	}
 
-	return string(r[0:c]) + p
+	if utf8.RuneCountInString(s) > c {
+		return string(r[0:c]) + p
+	}
+	return s
 }
