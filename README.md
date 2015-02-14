@@ -39,4 +39,4 @@ fmt.Println(sunnyday.Truncate("うんこっこたのしいお！", 5, "...more")
 うんこっこ...more
 ```
 
-&copy; funnythingz
+&copy; [funnythingz](http://hiropo.co.uk/)
