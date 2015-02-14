@@ -19,7 +19,7 @@ import(
 )
 
 func main() {
-    fmt.Println(Truncate("うんこっこたのしいお！", 5))
+    fmt.Println(sunnyday.Truncate("うんこっこたのしいお！", 5))
 }
 ```
 
